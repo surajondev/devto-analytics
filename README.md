@@ -38,3 +38,17 @@ _Make sure you already have appwrite install in your machine._
 ```bash
 git clone https://github.com/surajondev/devto-analytics.git
 ```
+
+### For Backend
+
+```bash
+cd backend
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run server
+```
