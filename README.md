@@ -52,3 +52,17 @@ npm install
 ```bash
 npm run server
 ```
+
+### For Frontend
+
+```bash
+cd client
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
