@@ -1,0 +1,139 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.leftContainer{
+  width: 20%;
+}
+
+.rightContainer{
+  width: 80%;
+  background-color: #F4F7FE;
+  /* height: 100vh; */
+  padding-bottom: 2em;
+  /* max-width: 1200px; */
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.headerList{
+  margin-top: 1.5em;
+  font-size: large;
+  color: #A3AED0;
+  list-style-type: none;
+}
+
+.headerListItem{
+  margin-top: 0.5em;
+  font-size: large;
+  color: #A3AED0;
+  cursor: pointer;
+}
+
+.headerListItem:hover{
+  color: #2B3674;
+}
+
+.homeContainer{
+  margin-left: 2em;
+  width: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2B3674;
+  margin: 2em auto;
+}
+
+.homeCardContainer{
+  margin-top: 3em;
+  display: flex;
+  /* background: rgb(134,140,255); */
+  background: linear-gradient(128deg, rgba(134,140,255,1) 0%, rgba(67,24,255,1) 100%);
+  color: white;
+  padding: 1em 2em;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboardCardContainer{
+  background-color: white;
+  display: flex;
+  padding: 1em;
+  border-radius: 15px;
+  height: 100px;
+  width: 250px;
+  margin-top: 2em;
+}
+
+.iconContainer{
+  margin-top: 0.7em;
+}
+
+.dashboardContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.viewChartContainer{
+  background-color: white;
+  margin-top: 2em;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.registerCard{
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 4em;
+  flex-direction: column;
+  margin-top: 2em;
+  border-radius: 15px;
+}
+
+.registerItem{
+  width: 70%;
+  margin-bottom: 2em;
+}
+
+.registerButton{
+  display: flex;
+  margin: 1em auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #4318FF;
+  width: 100%;
+  color:white;
+  padding: 1em 4em;
+  border-radius: 15px;
+}
