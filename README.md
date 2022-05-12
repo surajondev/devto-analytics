@@ -35,4 +35,6 @@ _Make sure you already have appwrite install in your machine._
 
 ### Clone the repo
 
-`git clone https://github.com/surajondev/devto-analytics.git`
+```bash
+git clone https://github.com/surajondev/devto-analytics.git
+```
